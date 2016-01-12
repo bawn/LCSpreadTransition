@@ -16,11 +16,10 @@
 		DF1033D51C34CCDC001C7CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1033D31C34CCDC001C7CF0 /* LaunchScreen.storyboard */; };
 		DF1033E01C34CCDC001C7CF0 /* LCSpreadTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1033DF1C34CCDC001C7CF0 /* LCSpreadTransitionTests.m */; };
 		DF1033EB1C34CCDC001C7CF0 /* LCSpreadTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1033EA1C34CCDC001C7CF0 /* LCSpreadTransitionUITests.m */; };
-		DF1033FD1C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1033FA1C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.m */; };
-		DF1033FE1C34D4BC001C7CF0 /* UICollectionView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1033FC1C34D4BC001C7CF0 /* UICollectionView+IndexPath.m */; };
 		DF1034011C34D76E001C7CF0 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1034001C34D76E001C7CF0 /* ModelViewController.m */; };
-		DF1034041C34D942001C7CF0 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1034031C34D942001C7CF0 /* CollectionViewCell.m */; };
 		DF9410F41C39018000529CBE /* 1321.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9410F31C39018000529CBE /* 1321.png */; };
+		DFF644041C451FA300C521B9 /* LCSpreadTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF644011C451FA300C521B9 /* LCSpreadTransitionAnimation.m */; };
+		DFF644051C451FA300C521B9 /* UICollectionView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF644031C451FA300C521B9 /* UICollectionView+IndexPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,16 +58,14 @@
 		DF1033E61C34CCDC001C7CF0 /* LCSpreadTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCSpreadTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1033EA1C34CCDC001C7CF0 /* LCSpreadTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSpreadTransitionUITests.m; sourceTree = "<group>"; };
 		DF1033EC1C34CCDC001C7CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF1033F81C34D4BC001C7CF0 /* LCPinterestTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPinterestTransitionProtocol.h; sourceTree = "<group>"; };
-		DF1033F91C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSpreadTransitionAnimation.h; sourceTree = "<group>"; };
-		DF1033FA1C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSpreadTransitionAnimation.m; sourceTree = "<group>"; };
-		DF1033FB1C34D4BC001C7CF0 /* UICollectionView+IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+IndexPath.h"; sourceTree = "<group>"; };
-		DF1033FC1C34D4BC001C7CF0 /* UICollectionView+IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+IndexPath.m"; sourceTree = "<group>"; };
 		DF1033FF1C34D76E001C7CF0 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
 		DF1034001C34D76E001C7CF0 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
-		DF1034021C34D942001C7CF0 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		DF1034031C34D942001C7CF0 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		DF9410F31C39018000529CBE /* 1321.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1321.png; sourceTree = "<group>"; };
+		DFF643FF1C451FA300C521B9 /* LCSpreadTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSpreadTransitionProtocol.h; sourceTree = "<group>"; };
+		DFF644001C451FA300C521B9 /* LCSpreadTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSpreadTransitionAnimation.h; sourceTree = "<group>"; };
+		DFF644011C451FA300C521B9 /* LCSpreadTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSpreadTransitionAnimation.m; sourceTree = "<group>"; };
+		DFF644021C451FA300C521B9 /* UICollectionView+IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+IndexPath.h"; sourceTree = "<group>"; };
+		DFF644031C451FA300C521B9 /* UICollectionView+IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+IndexPath.m"; sourceTree = "<group>"; };
 		FBCFC6F85255C21D8D66BDC7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,21 +137,15 @@
 		DF1033C41C34CCDC001C7CF0 /* LCSpreadTransition */ = {
 			isa = PBXGroup;
 			children = (
+				DFF643FE1C451F9B00C521B9 /* Class */,
 				DF1033C81C34CCDC001C7CF0 /* AppDelegate.h */,
 				DF1033C91C34CCDC001C7CF0 /* AppDelegate.m */,
 				DF1033CB1C34CCDC001C7CF0 /* ViewController.h */,
 				DF1033CC1C34CCDC001C7CF0 /* ViewController.m */,
-				DF1034021C34D942001C7CF0 /* CollectionViewCell.h */,
-				DF1034031C34D942001C7CF0 /* CollectionViewCell.m */,
 				DF1033FF1C34D76E001C7CF0 /* ModelViewController.h */,
 				DF1034001C34D76E001C7CF0 /* ModelViewController.m */,
 				DF1033CE1C34CCDC001C7CF0 /* Main.storyboard */,
 				DF9410F31C39018000529CBE /* 1321.png */,
-				DF1033F81C34D4BC001C7CF0 /* LCPinterestTransitionProtocol.h */,
-				DF1033F91C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.h */,
-				DF1033FA1C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.m */,
-				DF1033FB1C34D4BC001C7CF0 /* UICollectionView+IndexPath.h */,
-				DF1033FC1C34D4BC001C7CF0 /* UICollectionView+IndexPath.m */,
 				DF1033D11C34CCDC001C7CF0 /* Assets.xcassets */,
 				DF1033D31C34CCDC001C7CF0 /* LaunchScreen.storyboard */,
 				DF1033D61C34CCDC001C7CF0 /* Info.plist */,
@@ -187,6 +178,18 @@
 				DF1033EC1C34CCDC001C7CF0 /* Info.plist */,
 			);
 			path = LCSpreadTransitionUITests;
+			sourceTree = "<group>";
+		};
+		DFF643FE1C451F9B00C521B9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DFF643FF1C451FA300C521B9 /* LCSpreadTransitionProtocol.h */,
+				DFF644001C451FA300C521B9 /* LCSpreadTransitionAnimation.h */,
+				DFF644011C451FA300C521B9 /* LCSpreadTransitionAnimation.m */,
+				DFF644021C451FA300C521B9 /* UICollectionView+IndexPath.h */,
+				DFF644031C451FA300C521B9 /* UICollectionView+IndexPath.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,11 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF1033CD1C34CCDC001C7CF0 /* ViewController.m in Sources */,
-				DF1033FE1C34D4BC001C7CF0 /* UICollectionView+IndexPath.m in Sources */,
+				DFF644041C451FA300C521B9 /* LCSpreadTransitionAnimation.m in Sources */,
 				DF1033CA1C34CCDC001C7CF0 /* AppDelegate.m in Sources */,
-				DF1033FD1C34D4BC001C7CF0 /* LCSpreadTransitionAnimation.m in Sources */,
 				DF1034011C34D76E001C7CF0 /* ModelViewController.m in Sources */,
-				DF1034041C34D942001C7CF0 /* CollectionViewCell.m in Sources */,
+				DFF644051C451FA300C521B9 /* UICollectionView+IndexPath.m in Sources */,
 				DF1033C71C34CCDC001C7CF0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

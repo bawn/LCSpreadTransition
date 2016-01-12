@@ -19,7 +19,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor clearColor];
     // Do any additional setup after loading the view.
-    NSLog(@"%s", __func__);
 }
 
 //- (void)viewWillAppear:(BOOL)animated{
