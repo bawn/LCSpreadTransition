@@ -354,7 +354,7 @@
             waterFallView = [(id<LCSpreadControllerProtocol>)fromViewController collectionViewForTransition];
         }
         UICollectionViewCell *cell = [waterFallView cellForItemAtIndexPath:waterFallView.selectedIndexPath];
-        CGPoint point = [cell convertPoint:CGPointZero toView:toView];
+        CGPoint point = [cell convertPoint:CGPointZero toView:fromView];
         
         self.screenSnapShotView = [fromView snapshotViewAfterScreenUpdates:YES];
         
